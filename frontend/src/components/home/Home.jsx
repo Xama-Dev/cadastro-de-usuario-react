@@ -7,6 +7,6 @@ export default props =>
         <div className="display-4">Bem Vindo!</div>
         <hr/>
         <p className="mb-0">
-            Sistema de cadastro de usuários, desenvolvido em ReactJS.                
+            Somos um sistema de cadastro de usuários, desenvolvido em ReactJS.                
         </p>
     </Main>
