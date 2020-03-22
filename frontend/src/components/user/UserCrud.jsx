@@ -2,12 +2,6 @@ import React, { Component } from 'react'
 import Main from '../template/Main'
 import axios from 'axios'
 
-const headerProps = {
-    icon: 'users',
-    title: 'Usuários',
-    subtitle: 'Cadastro de usários: Incluir, Listar, Alterar e Excluir.'
-}
-
 const baseUrl = 'http://localhost:3001/users'
 const initialState = {
     user: { name: '', email: '' },
@@ -146,7 +140,7 @@ export default class UserCrud extends Component {
 
     render() {
         return (
-            <Main {...headerProps} >
+            <Main>
                 {this.renderForm()}
                 {this.renderTable()}
             </Main>

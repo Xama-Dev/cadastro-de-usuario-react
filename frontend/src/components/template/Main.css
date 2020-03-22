@@ -4,13 +4,19 @@ main > div {
 }
 
 /* Respnsive configuration */
-@media(max-width: 768px) {
+@media(max-width: 767px) {
+    div.justify-content-end {
+        justify-content: center !important;
+    }
+    div.justify-content-end button{
+        width: 50%;
+    }
     .btn {
         margin-left: 0px;
         margin: 2px !important;
     }
 }
-@media(max-width: 830px) {
+@media(max-width: 878px) {
     .btn {
         margin-left: 0px;
         margin: 2px !important;

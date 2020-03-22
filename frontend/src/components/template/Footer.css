@@ -8,7 +8,7 @@ footer.footer {
 }
 
 /* Respnsive configuration */
-@media(max-width: 768px) {
+@media(max-width: 767px) {
     footer.footer {
         height: 60px;
         display: flex;

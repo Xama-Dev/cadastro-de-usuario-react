@@ -10,9 +10,13 @@ aside.logo img {
 }
 
 /* Respnsive configuration */
-@media(max-width: 768px) {
+@media(max-width: 767px) {
     aside.logo img {
         width: 40%;
-        margin-left: 25%;
+    }
+    aside.logo a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

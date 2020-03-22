@@ -14,7 +14,7 @@
 }
 * {
     box-sizing: border-box;
-    font-family: 'Monserrat' sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Layout Grid */
@@ -50,20 +50,20 @@ footer.footer {
 }
 
 /* Responsice configuration */
-@media(max-width: 768px) {
+@media(max-width: 767px) {
     .app {
         grid-template-rows: 
             60px
             60px
-            var(--header-height)
+            110px
             1fr
             60px;
-        grid-template-columns: var(--aside-width) 1fr;
+        grid-template-columns: 1fr;
         grid-template-areas: 
-            "logo logo"
-            "menu menu"
-            "header header"
-            "content content"
-            "footer footer";
+            "logo"
+            "menu"
+            "header"
+            "content"
+            "footer";
     }
 }

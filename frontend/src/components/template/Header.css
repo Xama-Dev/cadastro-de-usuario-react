@@ -1,16 +1,16 @@
 header.header {
     background-color: #fff;
     padding: 0px 15px;
-    overflow: hidden;
-    white-space: nowrap;
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
     box-shadow: var(--shadow);
 }
 header.header h1 {
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 /* Responsive configuration */
-@media(max-width: 768px) {
+@media(max-width: 767px) {
     .header h1 {
         display: flex;
         justify-content: center;
@@ -23,5 +23,6 @@ header.header h1 {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 1em;
     }
 }
