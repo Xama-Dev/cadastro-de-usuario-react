@@ -3,8 +3,10 @@
 
     --logo-height: 100px;
     --header-height: 100px;
+    --menu-top-height: 100px;
     --aside-width: 225px;
     --footer-height: 40px;
+
 
     --shadow: 
         0 2px 23px 0 rgba(0, 0, 0, 0.1),
@@ -45,4 +47,23 @@ main.content {
 }
 footer.footer {
     grid-area: footer;
+}
+
+/* Responsice configuration */
+@media(max-width: 768px) {
+    .app {
+        grid-template-rows: 
+            60px
+            60px
+            var(--header-height)
+            1fr
+            60px;
+        grid-template-columns: var(--aside-width) 1fr;
+        grid-template-areas: 
+            "logo logo"
+            "menu menu"
+            "header header"
+            "content content"
+            "footer footer";
+    }
 }

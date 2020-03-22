@@ -8,3 +8,11 @@ aside.logo img {
     padding: 0px 15px;
     width: 100%;
 }
+
+/* Respnsive configuration */
+@media(max-width: 768px) {
+    aside.logo img {
+        width: 40%;
+        margin-left: 25%;
+    }
+}

@@ -6,3 +6,13 @@ footer.footer {
     background-color: #fff;
     box-shadow: var(--shadow);
 }
+
+/* Respnsive configuration */
+@media(max-width: 768px) {
+    footer.footer {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

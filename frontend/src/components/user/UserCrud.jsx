@@ -5,7 +5,7 @@ import axios from 'axios'
 const headerProps = {
     icon: 'users',
     title: 'Usuários',
-    subtitle: 'Cadastro de usários: Incluir, Listar, Alterar e Excluir!'
+    subtitle: 'Cadastro de usários: Incluir, Listar, Alterar e Excluir.'
 }
 
 const baseUrl = 'http://localhost:3001/users'
@@ -135,7 +135,7 @@ export default class UserCrud extends Component {
                         onClick={e => this.save(e)}>
                         Salvar
                     </button>
-                    <button className="btn-btn-secondary ml-2" 
+                    <button className="btn btn-secondary ml-2" 
                         onClick={e => this.clear(e)}>
                         Cancelar
                     </button>
