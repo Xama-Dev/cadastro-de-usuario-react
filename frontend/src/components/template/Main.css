@@ -5,6 +5,12 @@ main > div {
 
 /* Respnsive configuration */
 @media(max-width: 767px) {
+    main > div table {
+        table-layout: fixed;
+    }
+    main > div table td {
+        word-wrap: break-word;
+    }
     div.justify-content-end {
         justify-content: center !important;
     }
@@ -16,7 +22,7 @@ main > div {
         margin: 2px !important;
     }
 }
-@media(max-width: 878px) {
+@media(max-width: 1086px) {
     .btn {
         margin-left: 0px;
         margin: 2px !important;
