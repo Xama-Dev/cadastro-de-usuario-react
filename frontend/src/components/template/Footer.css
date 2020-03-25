@@ -6,6 +6,9 @@ footer.footer {
     background-color: #fff;
     box-shadow: var(--shadow);
 }
+.fa-heart {
+    color: #52c234;
+}
 
 /* Respnsive configuration */
 @media(max-width: 767px) {

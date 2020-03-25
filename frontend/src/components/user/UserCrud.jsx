@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Main from '../template/Main'
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:3001/users'
+const baseUrl = 'https://cadastrausuario-by-reactjs-api.herokuapp.com/users'
 const initialState = {
     user: { name: '', email: '' },
     list: []

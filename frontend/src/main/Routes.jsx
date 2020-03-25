@@ -12,7 +12,7 @@ export default props =>
             component={
                 props =>
                     <React.Fragment>
-                        <Header icon="home" title="Início" subtitle="Segundo Projeto do capítulo de React."></Header>
+                        <Header icon="home" title="Início" subtitle="Sistema de cadastro de usuários desenvolvido em ReactJS."></Header>
                         <Home></Home>
                     </React.Fragment>
             
@@ -23,7 +23,7 @@ export default props =>
             component={
                 props => 
                     <React.Fragment>
-                        <Header icon="users" title="Usuários" subtitle="Cadastro de usários: Incluir, Listar, Alterar e Excluir."></Header>
+                        <Header icon="users" title="Usuários" subtitle="Funções: Cadastrar, Atualizar, Listar e Excluir usuário"></Header>
                         <UserCrud></UserCrud>
                     </React.Fragment>
             } >                
